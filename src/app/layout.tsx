@@ -1,3 +1,4 @@
+import Footer from '@/components/footer'
 import Navbar from '@/components/navbar'
 import type { Metadata } from 'next'
 import localFont from 'next/font/local'
@@ -36,6 +37,7 @@ export default function RootLayout({
 				<div className='py-2'>
 					<Navbar />
 					{children}
+					<Footer />
 				</div>
 			</body>
 		</html>

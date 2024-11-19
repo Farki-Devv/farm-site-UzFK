@@ -1,3 +1,6 @@
+/**
+ * Navigation Bar links
+ */
 export const navLink = [
 	{
 		id: 1,
@@ -11,23 +14,23 @@ export const navLink = [
 			},
 			{
 				name: 'Раҳбарият',
-				slug: '/management',
+				slug: 'management',
 			},
 			{
 				name: 'Бўлимлари',
-				slug: '/center-units',
+				slug: 'center-units',
 			},
 			{
 				name: 'Тузилма',
-				slug: '/structure',
+				slug: 'structure',
 			},
 			{
 				name: 'Мақсад, вазифа ва функциялари',
-				slug: '/goals-objectives-and-functions',
+				slug: 'goals-objectives-and-functions',
 			},
 			{
 				name: 'Бўш ўринлар',
-				slug: '/vacancies',
+				slug: 'vacancies',
 			},
 		],
 	},
@@ -40,7 +43,7 @@ export const navLink = [
 		children: [
 			{
 				name: 'Эълонлар',
-				slug: '/announcements',
+				slug: 'announcements',
 			},
 			{
 				name: 'Фермер ва деҳқон хўжаликлари ахборот маркази',
@@ -102,15 +105,15 @@ export const navLink = [
 		children: [
 			{
 				name: 'Онлайн-қабулхона',
-				slug: '/online-reception',
+				slug: 'online-reception',
 			},
 			{
 				name: 'Мурожаатлар статистикаси',
-				slug: '/appeals-statistics',
+				slug: 'appeals-statistics',
 			},
 			{
 				name: 'Кўп бериладиган саволлар',
-				slug: '/frequently-asked-questions',
+				slug: 'frequently-asked-questions',
 			},
 		],
 	},

@@ -1,3 +1,7 @@
+/**
+ * Navbar component
+ * @example <Navbar/>
+ */
 import {
 	Accordion,
 	AccordionContent,
